@@ -20,6 +20,7 @@ export default function Home() {
 
   useEffect(() => {
 
+    
     getData();
 
     const interval = setInterval(getData, 2000);
